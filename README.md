@@ -6,7 +6,7 @@ This is a Chrome Extension that automatically pushes your GeeksForGeeks problem'
 
 ## 1. Why GfG to GitHub?
 
-- In the modern day, GitHub is a developer's primary portfolio. Therefore, this extension aids in centralizing all of your GeeksForGeeks solutions in an organised manner. 
+- In the modern day, GitHub is a developer's primary portfolio. Therefore, this extension aids in centralizing all of your GeeksForGeeks solutions to GitHub in an organised manner. 
 
 - Also, manually adding your GeeksForGeeks solutions to a GitHub repository is an extremely time-consuming and tedious procedure. Therefore, this extension automates the entire process without you needing to put-in any extra effort.
 
