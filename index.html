@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="./scripts/jquery-3.6.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>GfG to GitHub</title>
+</head>
+
+<body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    <div class="heading">
+
+        <img id="gfglogo" src="./assets/GeeksforGeeks.png" alt="GfG Logo"><b>&nbsp;GeeksforGeeks to <img
+                id="github_logo" src="./assets/github.png" alt="GitHub Logo">&nbsp;GitHub</b>
+            </div>
+            <p class="tagline">
+                Automatically push your problem solution from GeeksforGeeks to GitHub
+            </p>
+    <div id="solve_and_push_phase" class="statistics">
+        <div class="total_div">Problems Solved : <span id="successful_submissions">&nbsp;0</span></div>
+        <div class="total_div">
+            <span style="color: #2F8D46">&ensp; &ensp; School </span>&nbsp;:&nbsp;
+            <span id="successful_submissions_school">0</span>
+            <span style="color: #2F8D46">&ensp; &ensp; Basic </span>&nbsp;:&nbsp;
+            <span id="successful_submissions_basic">0</span>
+            <span style="color: #2F8D46">&ensp; &ensp; Easy </span>&nbsp;:&nbsp;
+            <span id="successful_submissions_easy">0</span>
+            <span style="color: #2F8D46">&ensp; &ensp; Medium </span>&nbsp;:&nbsp;
+            <span id="successful_submissions_medium">0</span>
+            <span style="color: #2F8D46">&ensp; &ensp; Hard </span>&nbsp;:&nbsp;
+            <span id="successful_submissions_hard">0</span>
+        </div>
+    </div>
+    
+    <div style="display: none"
+    id="link_repo_phase" class="link-repo-page">
+        <div class="form">
+            <div class="link-repo">
+                <div class="link-repo-header">
+                    <h3>Step - 1</h3>
+                    <p>Choose an option to get started :</p>
+                </div>
+            </div>
+            <form class="link-repo-form">
+                <div id="radio_group">
+                    <div>
+                        <input id="create_new" name="radio" value="create" type="radio"> <label
+                            for="create_new">
+                            <span></span><b> Create a new Private Repository </b></label>
+                    </div>
+                    <div>
+                        <input id="link_existing" name="radio" value="link" type="radio">
+                        <label for="link_existing">
+                            <span></span><b>Link an existing Repository</b>
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <h3>Step - 2</h3>
+                <p>Enter the name of new Private Repository / existing Repository : </p>
+                <input autocomplete="off" id="repositoryNameTextField" type="text" placeholder="Repository Name" />
+                <button id="linkRepositoryButton" type='button'>Get Started</button>
+                
+            </form>
+            
+        </div>
+    </div>
+    <div class="acknowledgement">
+        <p hidden id="error_info"></p>
+        <p hidden id="success_acknowledgement"></p>
+        <p hidden id="unlinkRepository">
+            Linked the wrong repo? <a>Unlink</a>.
+        </p>
+    </div>
+    <div class="star_on_github"><a href="https://github.com/AtharvaNanavate/gfg_to_github" target="_blank">
+    &nbsp;Star '<span style="color:#2F8D46;">GeeksforGeeks</span> to <span style="color:#000;">Github</span>' on GitHub
+    </a>
+    </div>
+    <script src="./scripts/particles.min.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/particle.js"></script>
+</body>
+
+</html>

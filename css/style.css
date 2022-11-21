@@ -1,0 +1,247 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 0.4rem;
+  color: #000;
+  height: 100vh;
+  width: 100vw;
+}
+.total_div{
+  display: flex;
+  justify-content: center;
+}
+#solve_and_push_phase{
+  font-size: 6em;
+  margin-top: 3em;
+}
+
+.heading {
+  font-size: 6em;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 3vh auto 1vh auto;
+}
+
+#gfglogo {
+  height: 0.7em !important;
+  margin-top: 0.15em;
+}
+
+#github_logo {
+  height: 0.8em !important;
+}
+.tagline{
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 0;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.acknowledgement {
+  font-size: 1.5em;
+  display: flex;
+  line-height: 0.1;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+header .header {
+  background-color: #fff;
+  height: 7em;
+}
+
+header a img {
+  width: 21em;
+  margin-top: 0.625em;
+}
+
+.link-repo-page {
+  width: 80vw;
+  padding: 2% 0 0;
+  margin: auto;
+  font-size: 0.7em;
+}
+
+.link-repo-page .form .link-repo {
+  margin-top: -4.85em;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 40vw;
+  margin: 0 auto 1.6em;
+  padding: 7em;
+  text-align: left;
+  box-shadow: 0 0 3.125em 0 rgba(0, 0, 0, 0.2), 0 0.8em 0.8em 0 rgba(0, 0, 0, 0.24);
+}
+
+.form h3 {
+  text-align: center;
+  font-size: 3em;
+}
+.form p {
+  font-size: 2.5em;
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  margin: 0 0 1.4em;
+  padding: 1.8em;
+  box-sizing: border-box;
+  font-size: 2.2em;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]+label {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+input[type="radio"]+label span {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin: -0.3em 1.6em 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 0.5em solid #ffffff;
+}
+
+input[type="radio"]+label span {
+  background-color: #fff;
+  border: 0.3em solid #2F8D46;
+}
+
+input[type="radio"]:checked+label {
+  color: #333;
+  font-weight: 700;
+}
+
+input[type="radio"]:checked+label span {
+  background-color: #2F8D46;
+  border: 0.3em solid #2F8D46;
+  box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, .1);
+}
+
+input[type="radio"]+label span,
+input[type="radio"]:checked+label span {
+  -webkit-transition: background-color 0.24s linear;
+  -o-transition: background-color 0.24s linear;
+  -moz-transition: background-color 0.24s linear;
+  transition: background-color 0.24s linear;
+}
+
+#repositoryNameTextField {
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 0.7em 0.7em 0.7em 1em;
+  font-size: 3.5em;
+}
+
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+  width: 100%;
+  border-radius: 1em;
+  border: 0;
+  padding: 1.5em;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form .message {
+  margin: 2.3em 0 0;
+  color: #b3b3b3;
+  font-size: 1.9em;
+}
+
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 47em;
+  margin: 0 auto;
+}
+
+#radio_group {
+  display: flex;
+  justify-content: space-around;
+}
+.star_on_github{
+  position:absolute;
+  bottom: 20px;
+  left: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  
+}
+.star_on_github a{
+  text-decoration: none;
+  color: rgb(4, 131, 186);
+}
+
+#error_info {
+  font-size: 1.1em;
+  font-weight: normal !important;
+  color: red !important;
+}
+
+#success_acknowledgement {
+  font-size: 1.1em;
+  font-weight: normal !important;
+  color: green !important;
+}
+
+#unlinkRepository {
+  font-size: 1.1em;
+  font-weight: normal !important;
+  color: green !important;
+}
+#unlinkRepository a{
+  text-decoration: underline;
+  color: #2B2BF1;
+  cursor: pointer;
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+}

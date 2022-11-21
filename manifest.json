@@ -1,0 +1,51 @@
+{
+    "manifest_version":3,
+    "name":"GfG To GitHub",
+    "description":"Automatically pushes your GeeksForGeeks solution to a GitHub Repository of your choice within seconds on successful submission.",
+    "homepage_url":"https://github.com/AtharvaNanavate/GfG-To-GitHub",
+    "version":"0.0.1",
+    "author": "Atharva Nanavate",
+    "action": {
+        "default_icon": "assets/thumbnail.png",
+        "default_popup": "popup.html"
+      },
+      "icons": {
+        "16": "assets/logo_128x128.png",
+        "48": "assets/logo_128x128.png",
+        "128": "assets/logo_128x128.png"
+      },
+      "background": {
+        "service_worker": "scripts/background.js"
+      },
+      "permissions": [
+        "tabs",
+        "scripting",
+        "storage"
+      ],
+      "host_permissions":[
+        "https://github.com/*",
+        "https://api.github.com/*",
+        "https://practice.geeksforgeeks.org/*"
+      ],
+      "web_accessible_resources": [{
+        "resources": ["scripts/extractCode.js","script/nodeDeletion.js"],
+        "matches": ["https://practice.geeksforgeeks.org/*"]
+      }],
+      "content_scripts": [
+        {
+          "matches": [
+            "https://github.com/*",
+            "https://practice.geeksforgeeks.org/*"
+          ],
+          "js": [
+            "scripts/localSetup.js",
+            "scripts/geeksForGeeks.js"
+          ],
+          "run_at": "document_idle"
+        }
+      ],
+     "content_security_policy": {
+      "extension pages": "script-src 'self'; object-src 'self';"
+    }
+    
+}
