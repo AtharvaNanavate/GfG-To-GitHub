@@ -1,5 +1,5 @@
-
-# GfG To GitHub
+![GfG to GitHub Logo](Illustrations/logo_500x500.png?raw=true "Title")
+# <p align="center">GfG To GitHub</p>
 
 This is a Chrome Extension that automatically pushes your GeeksForGeeks problem's solution to a GitHub Repository of your choice within seconds on successful submission.
 
