@@ -1,4 +1,5 @@
-![GfG to GitHub Logo](Illustrations/logo_500x500.png?raw=true "Title")
+<p align="center"><img src="Illustrations/logo_500x500.png" alt="GfG to GitHub logo." width="200"></a></p>
+
 # <p align="center">GfG To GitHub</p>
 
 This is a Chrome Extension that automatically pushes your GeeksForGeeks problem's solution to a GitHub Repository of your choice within seconds on successful submission.
@@ -29,7 +30,7 @@ This is a Chrome Extension that automatically pushes your GeeksForGeeks problem'
 
 - The extension popup also features a Dark Mode toggle, so you can choose a theme of your choice.
 
-- The homepage features an interactive background that uses Particle.JS.
+- The homepage features an interactive background that uses Particle.js.
 ## 3. Documentation
 
 The following is a detailed documentation of the extension.
@@ -77,7 +78,7 @@ The following is a detailed documentation of the extension.
 
 - Once the onboarding process has been completed, the homepage displays the user's GeeksForGeeks statistics.
 
-- The background of this page sports an interactive bubble themed canvas. This was built using the Particle.JS library.
+- The background of this page sports an interactive bubble themed canvas. This was built using the Particle.js library.
 
 - The bottom-right corner of this page sports a link to this GitHub Repository.
 
@@ -113,3 +114,14 @@ You are ready to go!
 - The extension has been published on the Chrome Web Store and can be installed by visiting the URL given below :
 
     [Gfg to GitHub](https://chrome.google.com/webstore/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk)
+## 5. Illustrations
+- Popup Window
+<p align="center"><img src="Illustrations/Authenticate.jpg" alt="Authenticate button" width="500"></a></p>
+<br>
+<p align="center"><img src="Illustrations/popupDashboard.jpg" alt="Popup Dashboard" width="500"></a></p>
+
+- Index Page
+
+<p align="center"><img src="Illustrations/CreateNewRepo.jpg" alt="Create New Repository" width="700"></a></p>
+<br>
+<p align="center"><img src="Illustrations/HomePage.jpg" alt="Home Page" width="700"></a></p>
