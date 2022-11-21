@@ -113,7 +113,7 @@ You are ready to go!
 
 - The extension has been published on the Chrome Web Store and can be installed by visiting the URL given below :
 
-    [Gfg to GitHub](https://chrome.google.com/webstore/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk)
+    [GfG to GitHub](https://chrome.google.com/webstore/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk)
 ## 5. Illustrations
 - Popup Window
 <p align="center"><img src="Illustrations/Authenticate.jpg" alt="Authenticate button" width="500"></a></p>
