@@ -1,4 +1,19 @@
 <p align="center"><img src="Illustrations/logo_500x500.png" alt="GfG to GitHub logo." width="200"></a></p>
+<p align="center">
+  
+
+<a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"/>
+  </a>
+  <a href="https://chrome.google.com/webstore/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk">
+    <img src="https://img.shields.io/chrome-web-store/v/gojabhkegjnlnklkkpkglaembhlknkgk.svg" alt="Chrome-Webstore-Version"/>
+  </a>
+</p>
+<p align="center">
+<a href="https://chrome.google.com/webstore/detail/gfg-to-github/gojabhkegjnlnklkkpkglaembhlknkgk">
+    <img src="https://user-images.githubusercontent.com/53124886/111952712-34f12300-8aee-11eb-9fdd-ad579a1eb235.png" alt="Chrome-Webstore-Logo"/>
+  </a>
+  </p>
 
 # <p align="center">GfG To GitHub</p>
 
