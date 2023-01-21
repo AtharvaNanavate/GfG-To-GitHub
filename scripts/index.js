@@ -75,7 +75,7 @@ const createRepository = (accessToken, repositoryName) => {
     name,
     private: true,
     auto_init: true,
-    description: 'This repository contains solutions of the GeeksForGeeks problems solved by me - Created using [GfG To GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub)',
+    description: 'This repository contains my solutions to various GeeksforGeeks DSA problems. The solutions are organized by the level of difficulty - Created using [GfG To GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub)',
   };
   repositoryInit = JSON.stringify(repositoryInit);
 
