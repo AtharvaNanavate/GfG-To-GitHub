@@ -141,3 +141,7 @@ You are ready to go!
 <p align="center"><img src="Illustrations/CreateNewRepo.jpg" alt="Create New Repository" width="700"></a></p>
 <br>
 <p align="center"><img src="Illustrations/HomePage.jpg" alt="Home Page" width="700"></a></p>
+
+- User Repository
+
+<p align="center"><img src="Illustrations/repo_illustration_v1.1.0.jpg" alt="Create New Repository" width="700"></a></p>
