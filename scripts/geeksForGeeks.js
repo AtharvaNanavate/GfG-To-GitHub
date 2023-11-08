@@ -197,7 +197,7 @@ const loader = setInterval(() => {
   let solutionLanguage = null;
   let solution = null;
 
-  if (window.location.href.includes('practice.geeksforgeeks.org/problems',)) {
+  if (window.location.href.includes('www.geeksforgeeks.org/problems',)) {
 
     const gfgSubmitButton = document.querySelector('[class^="ui button problems_submit_button"]');
 
