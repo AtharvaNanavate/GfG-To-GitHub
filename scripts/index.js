@@ -51,7 +51,7 @@ const createRepositoryStatusCode = (responseText, statusCode, repositoryName) =>
     default:
       chrome.storage.local.set({ current_phase: 'solve_and_push' }, () => {
         $('#error_info').hide();
-        $('#success_acknowledgement').html(`Successfully created <a target="blank" href="${responseText.html_url}">${repositoryName}</a>. Start solving on <a href="https://practice.geeksforgeeks.org/">GeeksforGeeks</a> now!`,);
+        $('#success_acknowledgement').html(`Successfully created <a target="blank" href="${responseText.html_url}">${repositoryName}</a>. Start solving on <a href="https://www.geeksforgeeks.org/explore">GeeksforGeeks</a> now!`,);
         $('#success_acknowledgement').show();
         $('#unlinkRepository').show();
 
@@ -75,7 +75,7 @@ const createRepository = (accessToken, repositoryName) => {
     name,
     private: true,
     auto_init: true,
-    description: 'This repository contains my solutions to various GeeksforGeeks DSA problems. The solutions are organized by the level of difficulty - Created using [GfG To GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub)',
+    description: 'This repository serves as a collection of my solutions to various GeeksforGeeks Data Structures and Algorithms (DSA) problems, organized by the level of difficulty. - Created using [GfG To GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub)',
   };
   repositoryInit = JSON.stringify(repositoryInit);
 
@@ -160,7 +160,7 @@ const linkRepo = (accessToken, repositoryName) => {
             {current_phase:'solve_and_push', repo: responseText.html_url},
             () => {
               $('#error_info').hide();
-              $('#success_acknowledgement').html(`Successfully linked <a target="blank" href="${responseText.html_url}">${repositoryName}</a> to 'GfG To GitHub'. Start solving on <a href="https://practice.geeksforgeeks.org/">GeeksforGeeks</a>&nbsp; now!`,);
+              $('#success_acknowledgement').html(`Successfully linked <a target="blank" href="${responseText.html_url}">${repositoryName}</a> to 'GfG To GitHub'. Start solving on <a href="https://www.geeksforgeeks.org/explore">GeeksforGeeks</a>&nbsp; now!`,);
               $('#success_acknowledgement').show();
               $('#unlinkRepository').show();
             },
