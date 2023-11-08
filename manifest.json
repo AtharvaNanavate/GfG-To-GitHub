@@ -1,9 +1,9 @@
 {
     "manifest_version":3,
-    "name":"GfG To GitHub",
+    "name":"GfG to GitHub",
     "description":"Automatically pushes your GeeksForGeeks solution to a GitHub Repository of your choice within seconds on successful submission.",
     "homepage_url":"https://github.com/AtharvaNanavate/GfG-To-GitHub",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "author": "Atharva Nanavate",
     "action": {
         "default_icon": "assets/thumbnail.png",
@@ -24,17 +24,19 @@
       "host_permissions":[
         "https://github.com/*",
         "https://api.github.com/*",
-        "https://practice.geeksforgeeks.org/*"
+        "https://practice.geeksforgeeks.org/*",
+        "https://www.geeksforgeeks.org/*"
       ],
       "web_accessible_resources": [{
         "resources": ["scripts/extractCode.js","script/nodeDeletion.js"],
-        "matches": ["https://practice.geeksforgeeks.org/*"]
+        "matches": ["https://practice.geeksforgeeks.org/*","https://www.geeksforgeeks.org/*"]
       }],
       "content_scripts": [
         {
           "matches": [
             "https://github.com/*",
-            "https://practice.geeksforgeeks.org/*"
+            "https://practice.geeksforgeeks.org/*",
+            "https://www.geeksforgeeks.org/*"
           ],
           "js": [
             "scripts/localSetup.js",
