@@ -3,7 +3,7 @@
     "name":"GfG to GitHub",
     "description":"Automatically pushes your GeeksForGeeks solution to a GitHub Repository of your choice within seconds on successful submission.",
     "homepage_url":"https://github.com/AtharvaNanavate/GfG-To-GitHub",
-    "version":"1.1.1",
+    "version":"1.1.2",
     "author": "Atharva Nanavate",
     "action": {
         "default_icon": "assets/thumbnail.png",
